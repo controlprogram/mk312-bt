@@ -1,0 +1,32 @@
+Notes for PCB FAB MK312BT - V1.2
+
+Main Boards
+
+1) V Score the Main Boards panel as indicated.
+2) Main Boards has 2 board designs panelized on 1 panel.
+3) Thickness is standard 1.6mm (0.063inches)
+4) Board is 2 layers
+5) HASL Finish - Pb Free Preferred if possible, otherwise Pb HASL is OK
+6) 1oz copper
+7) FR4 material
+8) Main Boards : Green solder mask, White Silkscreen (silkscreen BOTH top and bottom sides)
+9) ITAR : NO
+10) IPC-A-610 - Class2 (If possible - otherwise ignore)
+11) Main Board Dimensions : (193.04mm x 104.14mm) or (7.600 inches x 4.100 inches) 
+
+Front Panel Boards
+
+
+1) Place all Fab Markings (Serial Numbers/Date Codes) on the BOTTOM side of the front panel board. 
+2) Thickness is standard 1.6mm (0.063inches)
+3) Board is 2 layers
+4) HASL Finish - Pb Free Preferred if possible, otherwise Pb HASL is OK
+5) 1oz copper
+6) FR4 material
+7) Front Panel Boards : Black Solder Mask, While Silkscreen
+8) ITAR : NO
+9) IPC-A-610 - Class2 (If possible - otherwise ignore)
+10) Front Panel Board Dimensions :  (196.85mm x 58.72mm) or (7.750inches x 2.312inches) 
+
+
+
