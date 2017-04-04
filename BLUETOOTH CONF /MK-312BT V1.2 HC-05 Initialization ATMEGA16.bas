@@ -80,6 +80,7 @@ Do
    Bstatus = Waitkey()
 Loop Until Bstatus = &H4B
 
+
 Upperline
 Lcd "Programming     "
 Lowerline
@@ -95,10 +96,10 @@ Loop Until Bstatus = &H4B
 Upperline
 Lcd "Programming     "
 Lowerline
-Lcd "PIN Code to 1234"
+Lcd "Scan Parameters "
 Wait 3
 
-Print "AT+PSWD=1234"
+Print "AT+IPSCAN=1024,1,1024,1"
 Do
    Bstatus = Waitkey()
 Loop Until Bstatus = &H4B
@@ -111,6 +112,18 @@ Lcd "LED Polarity    "
 Wait 3
 
 Print "AT+POLAR=1,1"
+Do
+   Bstatus = Waitkey()
+Loop Until Bstatus = &H4B
+
+
+Upperline
+Lcd "Programming     "
+Lowerline
+Lcd "PIN Code to 1234"
+Wait 3
+
+Print "AT+PSWD=1234"
 Do
    Bstatus = Waitkey()
 Loop Until Bstatus = &H4B
